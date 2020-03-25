@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap");
+
+:root {
+  /* Primary Colors */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+  --dark-blue: hsl(234, 12%, 34%);
+  --gray-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+
+  /* Sizes */
+  --mobile-width: 375px;
+  --desktop-wth: 1440px;
+
+  /* Body Font Size */
+  --body-font-size: 15px;
+
+  --main-font: Poppins;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: var(--light-gray);
+  font-family: var(--main-font);
+  font-size: var(--body-font-size);
+}
+
+.font-weight-200 {
+  font-weight: 200;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.header-wrapper p {
+  margin: 0;
+  color: var(--dark-blue);
+}
+
+.header-title {
+  font-size: 2rem;
+}
+
+.header-paragraph {
+  margin-top: 1.7rem !important;
+  color: var(--gray-blue) !important;
+}
+
+.card {
+  padding: 1.2rem;
+  border-radius: 7px;
+  box-shadow: 0px 15px 30px 0px rgba(216, 216, 216, 0.8);
+  margin: 1.2rem;
+  height: 220px;
+  width: 300px;
+}
+
+#cyan-border {
+  border-top: 5px solid var(--cyan);
+}
+#red-border {
+  border-top: 5px solid var(--red);
+}
+#orange-border {
+  border-top: 5px solid var(--orange);
+}
+#blue-border {
+  border-top: 5px solid var(--blue);
+}
+
+.card-header {
+  font-size: 1.2rem;
+  color: var(--dark-blue);
+}
+
+.card-subtitle {
+  color: var(--gray-blue);
+}
+
+.card-offset {
+  margin-top: 10rem;
+}
+
+.card-wrapper {
+  display: flex;
+  min-width: 900px;
+  justify-content: center;
+}
+
+.card-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.2rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.2rem;
+}
