@@ -131,3 +131,41 @@ body {
   padding-top: 1.5rem;
   margin-bottom: 1.2rem;
 }
+
+
+@media (max-width: 375px) {
+  .header-title {
+    font-size: 1.2rem;
+  }
+
+  .header-paragraph {
+    font-size: 0.8rem;
+  }
+
+
+  .card-wrapper {
+    flex-direction: column;
+    min-width: 375px;
+  }
+
+  .card {
+    height: 200px;
+    width: 290px;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    align-self: center;
+  }
+
+  .icon {
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon img {
+    height: auto;
+  }
+
+  footer {
+    
+  }
+}
